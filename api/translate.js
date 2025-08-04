@@ -25,3 +25,5 @@ export default async function handler(req, res) {
     res.status(500).json({ error: "Translation failed" });
   }
 }
+
+Add GPT translation serverless function
